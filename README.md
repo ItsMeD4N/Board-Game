@@ -1,90 +1,72 @@
-# IF1221 Practicum - Computational Logic: LastNotLeast
+# IF1221 Final Project - Pokémon Board Game
 
 > Final project for the Computational Logic course (IF1221), Institut Teknologi Bandung.
 
-This project is a Prolog-based application developed as part of the IF1221 practicum. It explores knowledge representation, inference, and rule-based logic manipulation to simulate a minimalist text-based Pokemon game.
+This project is a Prolog-based board game developed as part of the IF1221 practicum. It explores knowledge representation, inference, and rule-based logic manipulation to simulate a text-based Pokémon board game.
 
-## Installing / Getting Started
-
-This project runs on **GNU Prolog**, not SWI-Prolog.
-
-### Requirements
+## 🧰 Requirements
 
 - GNU Prolog (tested with `gprolog`)
-- Operating System: Linux/macOS/WSL/Windows with terminal access
+- OS: Linux, macOS, Windows (via WSL or terminal access)
 
-### How to Run
+## ▶️ How to Run
 
-```shell
-git clone https://github.com/GAIB22/praktikum-if1221-logika-komputasional-lastnotleast.git
-cd praktikum-if1221-logika-komputasional-lastnotleast
+```bash
+git clone https://github.com/ItsMeD4N/Board-Game.git
+cd Board-Game
 gprolog
 [main].
 start_game.
 ```
 
-Running `start_game.` will start the interactive Pokemon game simulation.
+Running `start_game.` will launch the interactive Pokémon board game.
 
-### Initial Configuration
-
-No additional setup is required. Just ensure all `.pl` files are in the same directory and executed using GNU Prolog.
-
-## Developing
-
-To further develop this project:
-
-```bash
-git clone https://github.com/GAIB22/praktikum-if1221-logika-komputasional-lastnotleast.git
-cd praktikum-if1221-logika-komputasional-lastnotleast
-```
-
-You can modify the game logic, Pokemon facts, battle systems, and more within the Prolog files.
-
-### Directory Structure
+## 🛠️ Project Structure
 
 ```
-├── main.pl              # Main entry point
-├── peta.pl              # Map definitions and logic
-├── Pokemon.pl           # Pokemon facts
-├── battle.pl            # Battle mechanisms
-├── player.pl            # Player status and position
-├── utils.pl             # Utility functions
+├── main.pl              # Entry point of the game
+├── map.pl               # Grid-based map logic
+├── pokemon.pl           # Pokémon definitions and facts
+├── battle.pl            # Turn-based battle system
+├── player.pl            # Player data and mechanics
+├── skill.pl             # Skill definitions and usage
+├── item.pl              # Item definitions and inventory
+├── enemy.pl             # Wild Pokémon and enemy encounters
+├── utils.pl             # Utility predicates
 ```
 
-## Features
+## 🎮 Features
 
-- Grid-based map representation
-- Starter Pokemon selection
-- Encounter and battle systems
-- Skills and capture mechanics
-- Interactive text-based simulation
-- Pokemon rarity categories: Common, Rare, Epic, Legendary
+- Grid-based world and movement
+- Starter Pokémon selection
+- Wild encounters and turn-based battles
+- Skills, items, and capturing mechanics
+- Dynamic rarity system (Common to Legendary)
+- Goal-based game win condition
 
-## Configuration
+## ✏️ Development Tips
 
-No command-line arguments are required. However, you can customize:
+You can customize or expand the game by editing the `.pl` files directly, such as:
 
-- Pokemon facts (`Pokemon.pl`)
-- Game world map (`peta.pl`)
-- Encounter and level rules
+- Adding more Pokémon in `pokemon.pl`
+- Changing the map layout in `map.pl`
+- Tuning battle rules in `battle.pl`
 
-## Contributing
+## 🙌 Contributing
 
-Contributions are welcome!
+Contributions are welcome! To contribute:
 
-If you'd like to contribute:
-
-1. Fork this repository
+1. Fork the repository
 2. Create a new feature branch
-3. Commit your changes and submit a pull request
+3. Commit your changes and open a Pull Request
 
-Please follow consistent Prolog styling and include helpful comments for clarity.
+Please follow consistent Prolog styling and add comments for clarity.
 
-## Links
+## 🔗 Useful Links
 
-- Repository: [https://github.com/GAIB22/praktikum-if1221-logika-komputasional-lastnotleast](https://github.com/GAIB22/praktikum-if1221-logika-komputasional-lastnotleast)
+- Repository: [https://github.com/ItsMeD4N/Board-Game](https://github.com/ItsMeD4N/Board-Game)
 - GNU Prolog: [http://gprolog.org/](http://gprolog.org/)
 
-## Licensing
+## 🪪 License
 
-The code in this project is licensed under the MIT License.
+This project is licensed under the MIT License.
