@@ -1,8 +1,8 @@
-# IF1221 Final Project - Pokémon Board Game
+# IF1221 Final Project - Pokemon Board Game
 
 > Final project for the Computational Logic course (IF1221), Institut Teknologi Bandung.
 
-This project is a Prolog-based board game developed as part of the IF1221 practicum. It explores knowledge representation, inference, and rule-based logic manipulation to simulate a text-based Pokémon board game.
+This project is a Prolog-based board game developed as part of the IF1221 practicum. It explores knowledge representation, inference, and rule-based logic manipulation to simulate a text-based Pokemon board game.
 
 ## 🧰 Requirements
 
@@ -19,26 +19,26 @@ gprolog
 start_game.
 ```
 
-Running `start_game.` will launch the interactive Pokémon board game.
+Running `start_game.` will launch the interactive Pokemon board game.
 
 ## 🛠️ Project Structure
 
 ```
 ├── main.pl              # Entry point of the game
 ├── map.pl               # Grid-based map logic
-├── pokemon.pl           # Pokémon definitions and facts
+├── pokemon.pl           # Pokemon definitions and facts
 ├── battle.pl            # Turn-based battle system
 ├── player.pl            # Player data and mechanics
 ├── skill.pl             # Skill definitions and usage
 ├── item.pl              # Item definitions and inventory
-├── enemy.pl             # Wild Pokémon and enemy encounters
+├── enemy.pl             # Wild Pokemon and enemy encounters
 ├── utils.pl             # Utility predicates
 ```
 
 ## 🎮 Features
 
 - Grid-based world and movement
-- Starter Pokémon selection
+- Starter Pokemon selection
 - Wild encounters and turn-based battles
 - Skills, items, and capturing mechanics
 - Dynamic rarity system (Common to Legendary)
@@ -48,7 +48,7 @@ Running `start_game.` will launch the interactive Pokémon board game.
 
 You can customize or expand the game by editing the `.pl` files directly, such as:
 
-- Adding more Pokémon in `pokemon.pl`
+- Adding more Pokemon in `pokemon.pl`
 - Changing the map layout in `map.pl`
 - Tuning battle rules in `battle.pl`
 
