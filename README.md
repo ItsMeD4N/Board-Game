@@ -70,3 +70,7 @@ Please follow consistent Prolog styling and add comments for clarity.
 ## 🪪 License
 
 This project is licensed under the MIT License.
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/ItsMeD4N">ItsMeD4N</a>
+</p>
